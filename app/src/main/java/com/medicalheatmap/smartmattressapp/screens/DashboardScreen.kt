@@ -153,7 +153,7 @@ fun DashboardTab() {
                                     .width(90.dp)
                                     .height(40.dp)
                                     .clip(RoundedCornerShape(8.dp))
-                                    .background(Color.Orange.copy(alpha = 0.5f))
+                                    .background(Color(0xFFFF9800).copy(alpha = 0.5f))
                             )
                             // Legs
                             Row {
@@ -324,7 +324,7 @@ fun PredictionTab() {
                                     .width(40.dp)
                                     .height(100.dp)
                                     .clip(RoundedCornerShape(8.dp))
-                                    .background(Color.Orange.copy(alpha = 0.5f))
+                                    .background(Color(0xFFFF9800).copy(alpha = 0.5f))
                             )
                             Spacer(modifier = Modifier.width(15.dp))
                             Box(
@@ -673,7 +673,7 @@ fun PresetButton(
 ) {
     OutlinedButton(
         onClick = { onSelect(temp) },
-        modifier = Modifier.weight(1f),
+        modifier = Modifier,
         shape = RoundedCornerShape(8.dp)
     ) {
         Text(label, fontSize = 12.sp)
