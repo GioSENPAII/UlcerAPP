@@ -1,4 +1,4 @@
-package com.example.smartmattressapp.screens
+package com.medicalheatmap.smartmattressapp.screens
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Image
@@ -15,7 +15,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.smartmattressapp.R
 import com.medicalheatmap.smartmattressapp.R
 import kotlinx.coroutines.delay
 

@@ -1,4 +1,4 @@
-package com.example.smartmattressapp.ui.theme
+package com.medicalheatmap.smartmattressapp.ui.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme

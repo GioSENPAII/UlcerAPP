@@ -1,4 +1,4 @@
-package com.example.smartmattressapp.screens
+package com.medicalheatmap.smartmattressapp.screens
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.layout.*

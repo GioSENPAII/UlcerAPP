@@ -1,4 +1,4 @@
-package com.example.smartmattressapp
+package com.medicalheatmap.smartmattressapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,8 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.smartmattressapp.ui.theme.SmartMattressAppTheme
-import com.example.smartmattressapp.screens.*
+import com.medicalheatmap.smartmattressapp.ui.theme.SmartMattressAppTheme
+import com.medicalheatmap.smartmattressapp.screens.*
 import kotlinx.coroutines.delay
 
 class MainActivity : ComponentActivity() {
